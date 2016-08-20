@@ -22,14 +22,18 @@
             android:id="@+id/terminal"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Terminal" />
-        <item
-            android:id="@+id/settings"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Settings" />
-        <item
-            android:id="@+id/about"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="About" />
+        <item android:title="Configuration">
+            <menu>
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="About" />
+            </menu>
+        </item>
     </group>
 
 
