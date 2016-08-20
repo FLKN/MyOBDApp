@@ -1,7 +1,6 @@
 package com.controller.obd.myobdapp.Adapters;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,15 +13,12 @@ import com.controller.obd.myobdapp.R;
 
 import java.util.List;
 
-/**
- * Created by silve on 19/08/2016.
- */
-public class HomeAdapter extends BaseAdapter{
+public class GenericAdapter extends BaseAdapter{
 
     private Context context;
     private List<GenericItem> items;
 
-    public HomeAdapter(Context context, List<GenericItem> items) {
+    public GenericAdapter(Context context, List<GenericItem> items) {
         this.context = context;
         this.items = items;
     }
@@ -76,6 +72,4 @@ public class HomeAdapter extends BaseAdapter{
 
         return rowView;
     }
-
-
 }
